@@ -1,0 +1,1 @@
+export const env={PUBLIC_SITE_URL:"https://harinaralasetty.github.io",PUBLIC_ALLOW_INDEXING:"false"}

@@ -1,0 +1,1 @@
+import{O as e,T as t}from"./DGnQI6Ov.js";import"./xihTtKlq.js";var n=e(`<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" class="svelte-1xyx2qu"><path d="M6 18 18 6M6 6h12v12"></path></svg>`);function r(e){t(e,n())}export{r as t};

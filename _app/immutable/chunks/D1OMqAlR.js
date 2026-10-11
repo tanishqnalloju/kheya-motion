@@ -1,0 +1,1 @@
+import{c as e}from"./KTg3SQHf.js";function t(e,t=``){return!t||!e.startsWith(`/`)||e.startsWith(`//`)||e===t||e.startsWith(`${t}/`)||e.startsWith(`${t}?`)||e.startsWith(`${t}#`)?e:`${t}${e}`}function n(e,t=``){return(t&&(e===t||e.startsWith(`${t}/`))?e.slice(t.length):e).replace(/\/$/,``)||`/`}var r=n=>t(n,e),i=t=>n(t,e);export{r as n,i as t};
