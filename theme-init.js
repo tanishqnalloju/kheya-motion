@@ -1,4 +1,5 @@
 // Apply a saved choice before the first paint. System preference is the CSS fallback.
+document.documentElement.classList.add('js');
 (() => {
   try {
     const choice = localStorage.getItem('kheya-appearance');
