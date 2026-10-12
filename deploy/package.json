@@ -1,0 +1,6 @@
+{
+  "name": "kheya-deploy",
+  "private": true,
+  "scripts": { "build": "python3 build.py", "deploy": "python3 build.py && wrangler deploy" },
+  "devDependencies": { "wrangler": "^4.149.0" }
+}
