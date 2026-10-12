@@ -9,7 +9,7 @@ SITE = 'https://kheya.tanishqnalloju.com'
 shutil.rmtree(OUT, ignore_errors=True); os.makedirs(OUT)
 tar = subprocess.run(['git', 'archive', 'HEAD'], cwd=ROOT, check=True, capture_output=True).stdout
 with tarfile.open(fileobj=io.BytesIO(tar)) as t:
-    t.extractall(OUT, members=[m for m in t.getmembers() if not m.name.startswith('deploy/')])
+    t.extractall(OUT, filter='data', members=[m for m in t.getmembers() if not m.name.startswith('deploy/')])
 n = 0
 for root, _, files in os.walk(OUT):
     for f in files:
